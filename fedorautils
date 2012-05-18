@@ -37,7 +37,7 @@ LIBS="$SCRIPTDIR/lib/*.sh"		# Provides core functionality, change only if you kn
 MODULES="$SCRIPTDIR/modules/*.sh"	# Provides the main menu module
 PLUGINS="$SCRIPTDIR/plugins/*.sh"	# The directory where are containing all the plugins
 WORKINGDIR="/tmp/fedorautils"		# A temporary directory where everything is done, automatically created as needed
-LOCKFILE='/var/run/fedorautils.pid'	# The lockfile used to prevent running of multiple instances
+LOCKFILE="/var/run/fedorautils.pid"	# The lockfile used to prevent running of multiple instances
 LOGFILE="/var/log/fedorautils.log"	# Outputs will be redirected to this file if logging is enabled
 KEEPLOG="NO"				# If you want to enable logging, change "NO" to "YES"
 FORCE="NO"				# If you want to force redownload of files, change "NO" to "YES" 
@@ -81,5 +81,5 @@ Initialize	# Initialize the script
 Main		# Show the main menu
 Complete	# Do all the clean up and other stuff when all tasks are complete
 
-# Please report bugs at <http://fedorautils.sourceforgef.net>
+# Please report bugs at <http://github.com/satya164/fedorautils/issues>
 # End of the Script
